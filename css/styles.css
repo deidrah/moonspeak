@@ -4,6 +4,8 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #efeee9;
+	color: #222;
+	font-family: 'Roboto', 'sans-serif';
 }
 
 header {
@@ -17,9 +19,10 @@ nav {
 	background-color: rgba(255,255,255,.5);
 	height: 15vh;
 	text-align: center;
-	font-family: 'Roboto', 'sans-serif';
 	font-weight: 500;
 	text-transform: uppercase;
+	width: 100%;
+	position: fixed;
 }
 
 ul {
@@ -49,10 +52,106 @@ li + li {
 
 #headerText {
 	position: relative;
-	top: 40vh;
+	top: 50vh;
 	right: 20vh;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 100;
 	font-size: 1rem;
 	text-align: right;
+}
+
+section {
+	height: 70vh;
+}
+
+#textBox {
+	background-color: #fff;
+	width: 60vw;
+	height: 40vh;
+	margin: 10% auto;
+	padding: 5rem;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	font-weight: 100;
+	text-align: center;
+}
+
+#textBox h2 {
+	text-transform: uppercase;
+	font-size: 1.6em;
+	font-weight: 100;
+	
+}
+
+#textBox p {
+	margin: 3em;
+	text-align: justify;
+}
+
+#textBox button {
+	padding: 1rem 1.4rem 1rem 1.4rem;
+	background-color: #fff;
+	border: 2px solid #222;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+#portfolio {
+	font-size: 0;
+}
+
+.gallery {
+	width: 33.333%;
+	margin: 0;
+	height: 60%;
+	display: inline-block;
+	font-size: 1rem;
+
+}
+
+#one {
+	background: url('../img/1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#two {
+	background: url('../img/2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#three {
+	background: url('../img/3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#four {
+	background: url('../img/4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#five {
+	background: url('../img/5.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#six {
+	background: url('../img/6.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#justText {
+	width: 60vw;
+	height: 40vh;
+	margin: 10% auto;
+	padding: 5rem;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	font-weight: 100;
+	text-align: center;
 }
