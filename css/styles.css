@@ -97,13 +97,14 @@ section {
 }
 
 #portfolio {
+	height: auto;
 	font-size: 0;
 }
 
 .gallery {
 	width: 33.333%;
 	margin: 0;
-	height: 60%;
+	height: 400px;
 	display: inline-block;
 	font-size: 1rem;
 
@@ -147,11 +148,36 @@ section {
 
 #justText {
 	width: 60vw;
-	height: 40vh;
 	margin: 10% auto;
 	padding: 5rem;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	letter-spacing: 0.1em;
 	font-weight: 100;
 	text-align: center;
 }
+
+#button {
+	
+}
+
+.half {
+	display: inline-block;
+	width: 50%;
+	height: 600px;
+	background-color: #fff;
+}
+
+.half h3 {
+	font-size: 0.8em;
+}
+
+.half p {
+	font-size: 0.6em;
+}
+
+#photo {
+	background: url('../img/buttons.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
