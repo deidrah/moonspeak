@@ -60,18 +60,10 @@ li + li {
 	text-align: right;
 }
 
-section {
-	height: 70vh;
-}
-
-.smallerSection {
-	height: 40vh;
-}
 
 #textBox {
 	background-color: #fff;
 	width: 60vw;
-	height: 40vh;
 	margin: 10% auto;
 	padding: 5em;
 	font-size: 1.2rem;
@@ -160,19 +152,23 @@ section {
 	text-align: center;
 }
 
-#button {
+#halfs {
 	display: flex;
+	height: 600px;
 }
 
 .half {
 	display: inline-block;
 	width: 50%;
-	height: 600px;
+}
+
+#halfText {
 	background-color: #fff;
+	overflow: hidden;
 }
 
 #reviews {
-	padding: 7em 15em 5em 5em;
+	margin: 100px;
 }
 
 #reviews h3 {
@@ -189,7 +185,7 @@ section {
 }
 
 #reviews h3 + p {
-	margin-bottom: 4em;
+	margin-bottom: 40px;
 }
 
 #photo {
@@ -198,3 +194,82 @@ section {
 	background-size: cover;
 }
 
+#boxes {
+	margin: 5em auto;
+	width: 80%;
+	text-align: center;
+}
+
+.box + .box {
+	margin-left: 20px;
+}
+
+.box {
+	width: 15%;
+	display: inline-block;
+	background-color: #fff;
+	text-align: center;
+	padding: 2em 3em;
+}
+
+.box h3 {
+	margin-top: 0;
+	font-size: 0.8rem;
+}
+
+.box p {
+	font-size: 0.7rem;
+}
+
+.box a {
+	color: #4faeff;
+	font-size: 0.8rem;
+}
+
+#contact {
+	display: flex;
+	height: 400px;
+	background-color: #353535;
+	color: #fff;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+#contactInfo {
+	width: 300px;
+	margin: 80px auto;
+	font-weight: 100;
+}
+
+#map {
+	width: 400px;
+	height: 398px;
+	border: 1px solid #353535;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+footer {
+	height: 130px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#socialIcons {
+	font-size: 1.6rem;
+	float: left;
+	padding: 50px;
+}
+
+#socialIcons a, #socialIcons a:hover {
+	color: #222;
+	text-decoration: none;
+}
+
+#copyright {
+	float: right;
+	padding: 50px;
+	font-size: 1.2rem;
+}
