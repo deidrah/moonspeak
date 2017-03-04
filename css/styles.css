@@ -237,6 +237,11 @@ li + li {
 	font-weight: 700;
 }
 
+#contacts {
+	width: 80%;
+	margin: 0 auto;
+}
+
 #contactInfo {
 	width: 300px;
 	margin: 80px auto;
