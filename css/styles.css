@@ -237,14 +237,16 @@ li + li {
 	font-weight: 700;
 }
 
-#contacts {
-	width: 80%;
+.smallerContainer {
+	width: 60%;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 }
 
 #contactInfo {
 	width: 300px;
-	margin: 80px auto;
+	margin: 80px 0;
 	font-weight: 100;
 }
 
@@ -254,18 +256,17 @@ li + li {
 	border: 1px solid #353535;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
+	float: right;
 }
 
 footer {
 	height: 130px;
-	width: 80%;
-	margin: 0 auto;
 }
 
 #socialIcons {
 	font-size: 1.6rem;
 	float: left;
-	padding: 50px;
+	padding-top: 50px;
 }
 
 #socialIcons a, #socialIcons a:hover {
@@ -275,6 +276,6 @@ footer {
 
 #copyright {
 	float: right;
-	padding: 50px;
+	padding-top: 50px;
 	font-size: 1.2rem;
 }
