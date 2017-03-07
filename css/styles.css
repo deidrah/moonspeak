@@ -63,13 +63,16 @@ li + li {
 
 #textBox {
 	background-color: #fff;
-	width: 60vw;
-	margin: 10% auto;
-	padding: 5em;
+	width: 70%;
+	margin: 100px auto;
 	font-size: 1.2rem;
 	letter-spacing: 0.1rem;
 	font-weight: 100;
 	text-align: center;
+}
+
+#textBoxContent {
+	padding: 100px;
 }
 
 #textBox h2 {
@@ -100,7 +103,7 @@ li + li {
 .gallery {
 	width: 33.333%;
 	margin: 0;
-	height: 400px;
+	height: 350px;
 	display: inline-block;
 	font-size: 1rem;
 
@@ -143,18 +146,21 @@ li + li {
 }
 
 #justText {
-	width: 60vw;
-	margin: 10% auto;
-	padding: 1rem;
+	width: 70%;
+	margin: 150px auto;
 	font-size: 1.6em;
 	letter-spacing: 0.1em;
 	font-weight: 100;
 	text-align: center;
 }
 
+#justText p {
+	padding: 50px;
+}
+
 #halfs {
 	display: flex;
-	height: 600px;
+	height: 500px;
 }
 
 .half {
@@ -196,39 +202,37 @@ li + li {
 
 #boxes {
 	margin: 5em auto;
-	width: 80%;
 	text-align: center;
 }
 
 .box + .box {
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 .box {
-	width: 15%;
+	width: 20%;
 	display: inline-block;
 	background-color: #fff;
 	text-align: center;
-	padding: 2em 3em;
+	padding: 50px 50px;
 }
 
 .box h3 {
 	margin-top: 0;
-	font-size: 0.8rem;
 }
 
 .box p {
-	font-size: 0.7rem;
+	font-size: 0.9rem;
+	font-weight: 100;
 }
 
 .box a {
 	color: #4faeff;
-	font-size: 0.8rem;
 }
 
 #contact {
 	display: flex;
-	height: 400px;
+	height: 500px;
 	background-color: #353535;
 	color: #fff;
 }
@@ -238,7 +242,7 @@ li + li {
 }
 
 .smallerContainer {
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -246,13 +250,13 @@ li + li {
 
 #contactInfo {
 	width: 300px;
-	margin: 80px 0;
+	margin: 100px 0;
 	font-weight: 100;
 }
 
 #map {
-	width: 400px;
-	height: 398px;
+	width: 500px;
+	height: 498px;
 	border: 1px solid #353535;
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
