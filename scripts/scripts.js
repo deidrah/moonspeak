@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 	var map = document.getElementById('map');
 
 	if (map) {
@@ -13,3 +15,4 @@
 		icon: 'img/map.png',
 	}); 
 }
+});

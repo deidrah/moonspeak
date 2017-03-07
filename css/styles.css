@@ -63,7 +63,7 @@ li + li {
 
 #textBox {
 	background-color: #fff;
-	width: 70%;
+	width: 60%;
 	margin: 100px auto;
 	font-size: 1.2rem;
 	letter-spacing: 0.1rem;
@@ -93,6 +93,12 @@ li + li {
 	border: 2px solid #222;
 	text-transform: uppercase;
 	font-size: 0.8rem;
+	cursor: pointer;
+}
+
+#textBox button:hover {
+	background-color: #222;
+	color: #fff;
 }
 
 #portfolio {
@@ -146,7 +152,7 @@ li + li {
 }
 
 #justText {
-	width: 70%;
+	width: 60%;
 	margin: 150px auto;
 	font-size: 1.6em;
 	letter-spacing: 0.1em;
@@ -242,7 +248,8 @@ li + li {
 }
 
 .smallerContainer {
-	width: 70%;
+	margin: 50px 0;
+	width: 60%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
