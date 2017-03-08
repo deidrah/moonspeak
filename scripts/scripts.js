@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+	$(window).on("scroll touchmove", function () {
+  		$('nav').toggleClass('navSmall', $(document).scrollTop() > 500);
+  		$('ul').toggleClass('ulSmall', $(document).scrollTop() > 500);
+	});
+
+
 	var map = document.getElementById('map');
 
 	if (map) {

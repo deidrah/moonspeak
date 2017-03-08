@@ -23,16 +23,31 @@ nav {
 	text-transform: uppercase;
 	width: 100%;
 	position: fixed;
+	transition: .3s;
+}
+
+.navSmall {
+	top:0;
+	height: 5vh;
+	background-color: #fff;
+
+}
+
+.navSmall + #headerText {
+	margin-top:10vh;
 }
 
 ul {
 	margin: 0;
-	padding: 0;
+	padding: 50px;
+}
+
+.ulSmall {
+	padding: 10px;
 }
 
 ul li {
 	display: inline-block;
-	padding-top: 3%;
 	letter-spacing: 0.415rem;
 }
 
@@ -63,7 +78,7 @@ li + li {
 
 #textBox {
 	background-color: #fff;
-	width: 60%;
+	width: 70%;
 	margin: 100px auto;
 	font-size: 1.2rem;
 	letter-spacing: 0.1rem;
@@ -152,7 +167,7 @@ li + li {
 }
 
 #justText {
-	width: 60%;
+	width: 70%;
 	margin: 150px auto;
 	font-size: 1.6em;
 	letter-spacing: 0.1em;
@@ -212,7 +227,7 @@ li + li {
 }
 
 .box + .box {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .box {
@@ -249,7 +264,7 @@ li + li {
 
 .smallerContainer {
 	margin: 50px 0;
-	width: 60%;
+	width: 70%;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
