@@ -108,6 +108,7 @@ li + li {
 	text-transform: uppercase;
 	font-size: 0.8rem;
 	cursor: pointer;
+	transition: .3s;
 }
 
 #textBox button:hover {
