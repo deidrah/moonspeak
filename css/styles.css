@@ -48,13 +48,13 @@ ul {
 
 ul li {
 	display: inline-block;
-	letter-spacing: 0.415rem;
+	letter-spacing: 3px;
 }
 
 li a {
 	text-decoration: none;
 	color: #222222;
-	font-size: 0.6rem;
+	font-size: 10px;
 }
 
 li + li {
@@ -62,7 +62,7 @@ li + li {
 }
 
 #logo {
-	font-size: 1rem;
+	font-size: 16px;
 }
 
 #headerText {
@@ -71,7 +71,7 @@ li + li {
 	right: 20vh;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 100;
-	font-size: 1rem;
+	font-size: 16px;
 	text-align: right;
 }
 
@@ -80,8 +80,8 @@ li + li {
 	background-color: #fff;
 	width: 70%;
 	margin: 100px auto;
-	font-size: 1.2rem;
-	letter-spacing: 0.1rem;
+	font-size: 18px;
+	letter-spacing: 2px;
 	font-weight: 100;
 	text-align: center;
 }
@@ -92,22 +92,22 @@ li + li {
 
 #textBox h2 {
 	text-transform: uppercase;
-	font-size: 1.6rem;
+	font-size: 25px;
 	font-weight: 100;
 	
 }
 
 #textBox p {
-	margin: 3rem;
+	margin: 50px;
 	text-align: justify;
 }
 
 #textBox button {
-	padding: 1em 1.4em 1em 1.4em;
+	padding: 15px 20px;
 	background-color: #fff;
 	border: 2px solid #222;
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 13px;
 	cursor: pointer;
 	transition: .3s;
 }
@@ -127,7 +127,7 @@ li + li {
 	margin: 0;
 	height: 22vw;
 	display: inline-block;
-	font-size: 1rem;
+	font-size: 16px;
 	position: relative;
 	transition: .3s;
 	background-repeat: no-repeat;
@@ -184,8 +184,8 @@ li + li {
 #justText {
 	width: 70%;
 	margin: 150px auto;
-	font-size: 1.6em;
-	letter-spacing: 0.1em;
+	font-size: 24px;
+	letter-spacing: 3px;
 	font-weight: 100;
 	text-align: center;
 }
@@ -214,16 +214,16 @@ li + li {
 }
 
 #reviews h3 {
-	font-size: 0.8rem;
+	font-size: 13px;
 	font-weight: 100;
 	text-transform: uppercase;
 	letter-spacing: 0.415rem;
 }
 
 #reviews p {
-	font-size: 0.8rem;
+	font-size: 12px;
 	font-weight: 100;
-	letter-spacing: 0.2rem;
+	letter-spacing: 5px;
 }
 
 #reviews h3 + p {
@@ -237,8 +237,7 @@ li + li {
 }
 
 #boxes {
-	margin: 5em auto;
-	justify-content: space-between;
+	margin: 80px auto;
 }
 
 .box + .box {
@@ -258,7 +257,7 @@ li + li {
 }
 
 .box p {
-	font-size: 0.9rem;
+	font-size: 15px;
 	font-weight: 100;
 }
 
@@ -305,7 +304,7 @@ footer {
 }
 
 #socialIcons {
-	font-size: 1.6rem;
+	font-size: 25px;
 	float: left;
 	padding-top: 50px;
 }
@@ -318,5 +317,94 @@ footer {
 #copyright {
 	float: right;
 	padding-top: 50px;
-	font-size: 1.2rem;
+	font-size: 20px;
 }
+
+
+@media (max-width: 999px) {
+	#textBoxContent {
+		padding: 20px;
+	}
+
+	#textBoxContent p {
+		margin: 40px;
+		font-size: 15px;
+	}
+
+	.gallery {
+		width: 50%;
+		height: 30vw;
+	}
+
+	#justText p {
+		padding: 20px;
+		font-size: 16px;
+	}
+
+	.half {
+		width: 100%;
+		height: 400px;
+		display: block;
+	}
+
+	#halfs {
+		flex-wrap: wrap;
+		height: 800px;
+	}
+
+	#reviews {
+		margin: 50px;
+	}
+
+	.smallerContainer {
+		flex-wrap: wrap;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	.box + .box {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	#contact {
+		height: 800px;
+	}
+
+	#contactInfo {
+		margin: 70px auto;
+	}
+
+	#map {
+		width: 100%;
+		height: 398px;
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+	#textBoxContent {
+		padding: 50px;
+	}
+
+	.gallery {
+		width: 50%;
+		height: 30vw;
+	}
+
+	#contact {
+		height: 402px;
+	}
+
+	.box {
+		padding: 20px 10px;
+		width: 28%;
+	}
+
+	#map {
+		width: 400px;
+		height: 400px;
+	}
+}
+
