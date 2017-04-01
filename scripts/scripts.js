@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	if (!$('#mobileMenu').find('mobile')) {
+	if (($(window).width() > 601)) {
 
 	$(window).on("scroll touchmove", function () {
   		$('nav').toggleClass('navSmall', $(document).scrollTop() > 500);
