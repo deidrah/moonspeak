@@ -27,6 +27,42 @@ nav {
 	z-index: 2;
 }
 
+.mobile {
+	background-image: url(../img/menu.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 40px;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.mobile ul {
+	display: none;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	background: rgba(255,255,255,.5);
+	padding: 0;
+	margin: 68px 0;
+}
+
+.toggle {
+	display: block !important;
+}
+
+.mobile ul li {
+	display: block;
+	margin: 10px 0;
+}
+
+.mobile li + .mobile li {
+	margin-left: 0;
+}
+
 .navSmall {
 	top:0;
 	height: 5vh;

@@ -1,10 +1,27 @@
 $(document).ready(function() {
 
+	if (!$('#mobileMenu').find('mobile')) {
+
 	$(window).on("scroll touchmove", function () {
   		$('nav').toggleClass('navSmall', $(document).scrollTop() > 500);
   		$('ul').toggleClass('ulSmall', $(document).scrollTop() > 500);
 	});
+}
+	var init = function() {
+		if ($(window).width() < 601) {
+			$("#menu").addClass("mobile");
+		}
+		else {
+			$("#menu").removeClass("mobile");
+		}
+	};
 
+	init();
+	$(window).resize(init);
+
+	$('.mobile').click(function(){
+		$(this).find('ul').toggleClass('toggle');
+	});
 
 	var map = document.getElementById('map');
 
