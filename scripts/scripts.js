@@ -1,15 +1,13 @@
 $(document).ready(function() {
 
-	if (($(window).width() > 601)) {
-
-	$(window).on("scroll touchmove", function () {
-  		$('nav').toggleClass('navSmall', $(document).scrollTop() > 500);
-  		$('ul').toggleClass('ulSmall', $(document).scrollTop() > 500);
-	});
-}
 	var init = function() {
 		if ($(window).width() < 601) {
 			$("#menu").addClass("mobile");
+
+			$(window).on("scroll touchmove", function () {
+			$('nav').toggleClass('navSmall', $(document).scrollTop() > 500);
+			$('ul').toggleClass('ulSmall', $(document).scrollTop() > 500);
+	});
 		}
 		else {
 			$("#menu").removeClass("mobile");
