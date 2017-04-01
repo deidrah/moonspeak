@@ -43,11 +43,12 @@ nav {
 	display: none;
 	position: absolute;
 	left: 50%;
+	top: 0;
 	transform: translateX(-50%);
 	width: 100%;
 	background: rgba(255,255,255,.5);
 	padding: 0;
-	margin: 68px 0;
+	margin: 15vh 0;
 }
 
 .toggle {
